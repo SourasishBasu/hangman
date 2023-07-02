@@ -8,8 +8,9 @@ print(hangman_art.logo)
 chosen_word = random.choice(hangman_words.word_list)
 chosen_list = list(chosen_word.strip(""))
 
-#Testing code
-print(f'Pssst, the solution is {chosen_word}.')
+#print(f'Pssst, the solution is {chosen_word}.')
+#Above code used for debugging and testing purposes. 
+
 lives = 6
 
 display=[]
